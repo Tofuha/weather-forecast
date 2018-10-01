@@ -1,0 +1,31 @@
+.card-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+}
+
+.selected {
+  border: 1px solid rgb(233, 233, 233);
+  background-color: rgb(252, 252, 252);
+}
+
+.day p {
+  margin: 5px;
+  color: rgb(186, 186, 186);
+}
+
+.icon img {
+  margin: 0;
+}
+
+.temperature p {
+  margin: 0;
+  margin-bottom: 5px;
+  color: rgb(135, 135, 135);
+}
+
+.temperature span {
+  color: rgb(186, 186, 186);
+}
